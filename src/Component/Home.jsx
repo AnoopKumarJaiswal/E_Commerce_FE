@@ -119,7 +119,7 @@ const Home = () => {
             </button>
 
             {showPrice && (
-              <div className="z-100 absolute mt-2 w-64 bg-white/90 backdrop-blur-xl rounded-2xl shadow-2xl border  border-slate-100 overflow-hidden animate-slide-down ">
+              <div className="scale-z-100 absolute mt-2 w-64 bg-white/90 backdrop-blur-xl rounded-2xl shadow-2xl border  border-slate-100 overflow-hidden animate-slide-down ">
                 {[1000, 2000, 10000].map(p => (
                   <button
                     key={p}
