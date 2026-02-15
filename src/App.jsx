@@ -48,3 +48,6 @@ function App() {
 }
 
 export default App
+
+
+// VITE_DOMAIN = https://e-commerce-be-epj4.onrender.com

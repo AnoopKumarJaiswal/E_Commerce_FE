@@ -41,7 +41,7 @@ const Navbar = () => {
   }, [search])
 
   return (
-    <nav className="fixed top-0 z-50 h-[80px] w-full bg-slate-900/95 backdrop-blur-md border-b border-slate-800 text-slate-100 shadow-2xl transition-all duration-300">
+    <nav className="fixed top-0 z-200 h-[80px] w-full bg-slate-900/95 backdrop-blur-md border-b border-slate-800 text-slate-100 shadow-2xl transition-all duration-300">
       <div className="mx-auto flex h-full max-w-7xl items-center justify-between px-6">
 
         {/* Logo */}

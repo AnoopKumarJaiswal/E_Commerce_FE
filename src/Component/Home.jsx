@@ -119,7 +119,7 @@ const Home = () => {
             </button>
 
             {showPrice && (
-              <div className="absolute mt-2 w-64 bg-white/90 backdrop-blur-xl rounded-2xl shadow-2xl border border-slate-100 overflow-hidden animate-slide-down">
+              <div className="z-100 absolute mt-2 w-64 bg-white/90 backdrop-blur-xl rounded-2xl shadow-2xl border  border-slate-100 overflow-hidden animate-slide-down ">
                 {[1000, 2000, 10000].map(p => (
                   <button
                     key={p}
@@ -130,7 +130,7 @@ const Home = () => {
                     className="w-full px-6 py-3.5 text-left text-sm font-medium text-slate-600 hover:bg-indigo-50 hover:text-indigo-600 transition border-b border-slate-50 last:border-none group/item flex justify-between"
                   >
                     <span>Up to ₹{p}</span>
-                    <i className="fa-solid fa-check opacity-0 group-hover/item:opacity-100 text-indigo-500 transition-opacity"></i>
+                    <i className="fa-solid fa-check opacity-0 group-hover/item:opacity-100 text-indigo-500 transition-opacity "></i>
                   </button>
                 ))}
                 <button
@@ -138,7 +138,7 @@ const Home = () => {
                     setPrice(null)
                     setShowPrice(false)
                   }}
-                  className="w-full px-6 py-3.5 text-left text-sm font-medium text-slate-600 hover:bg-indigo-50 hover:text-indigo-600 transition group/item"
+                  className="w-full px-6 py-3.5 text-left text-sm font-medium text-slate-600  hover:bg-indigo-50 hover:text-indigo-600 transition group/item"
                 >
                   All Prices
                 </button>
